@@ -55,9 +55,9 @@ def evaluate_models(
         y_norm_mean = test_data["y_norm_mean"]
         y_norm_stdev = test_data["y_norm_stdev"]
 
-        model_dir = exp_dir / "models" / tech
-        xgb_model = joblib.load(model_dir / "XGBoost_model.pkl")
-        ngb_model = joblib.load(model_dir / "NGBoost_model.pkl")
+        model_dir = exp_dir / "models" 
+        xgb_model = joblib.load(model_dir / f"XGBoost_model_{tech}.pkl")
+        ngb_model = joblib.load(model_dir / f"NGBoost_model_{tech}.pkl")
 
         # Inverse normalization to natural scale
         y_test_nat = np.expm1(y_test * y_norm_stdev + y_norm_mean)
