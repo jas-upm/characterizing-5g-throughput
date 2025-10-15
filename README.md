@@ -1,6 +1,6 @@
 # Characterizing 5G User Throughput via Uncertainty Modeling and Crowdsourced Measurements
 
-Codebase for the paper [Characterizing 5G User Throughput via Uncertainty Modeling and Crowdsourced Measurements](https://arxiv.org/abs/2510.09239).
+Codebase for the paper [Characterizing 5G User Throughput via Uncertainty Modeling and Crowdsourced Measurements](https://arxiv.org/abs/2510.09239). Submitted to IEEE International Conference on Communications (ICC) 2026 for possible publication.
 
 ![Feature importance](notebooks/Fig3.Feature_importance.png)
 
