@@ -1,0 +1,10 @@
+joblib==1.5.2
+matplotlib==3.10.7
+ngboost==0.5.7
+numpy==2.3.3
+pandas==2.3.3
+PyYAML==6.0.3
+scikit_learn==1.7.2
+scipy==1.16.2
+shap==0.47.2
+xgboost==3.0.5

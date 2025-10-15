@@ -1,0 +1,41 @@
+[project]
+name = "characterizing-5g-throughput"
+version = "0.1.0"
+description = "Characterizing 5G User Throughput via Uncertainty Modeling — A framework for modeling, training, and evaluating 5G throughput prediction models using crowdsourced data and uncertainty quantification."
+authors = [
+    { name = "Javier Albert-Smet", email = "javier.albert.smet@upm.es" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "joblib==1.5.2",
+    "matplotlib==3.10.7",
+    "ngboost==0.5.7",
+    "numpy==2.3.3",
+    "pandas==2.3.3",
+    "PyYAML==6.0.3",
+    "scikit_learn==1.7.2",
+    "scipy==1.16.2",
+    "shap==0.47.2",
+    "xgboost==3.0.5"
+]
+
+keywords = ["5G", "throughput", "uncertainty", "machine-learning", "modeling", "telecom"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Intended Audience :: Science/Research",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/javialbertsmet/characterizing-5g-throughput"
+"Repository" = "https://github.com/javialbertsmet/characterizing-5g-throughput"
+"Paper" = "https://arxiv.org/abs/2510.09239"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
